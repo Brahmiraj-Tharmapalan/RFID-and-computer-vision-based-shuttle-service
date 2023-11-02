@@ -1,0 +1,23 @@
+
+  body {
+    font-family: Lucida Sans;
+    margin: 0;
+    font-size: 15px;
+    background-image: url("../icons/header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
+     
+  tbody tr:nth-child(even){background-color: #ffffff;}
+  tbody tr:nth-child(odd){background-color: #e9e4e4;}
+  
+  tbody tr:hover {opacity: 0.8;}
+   
+  .logo{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding-left: 10%;
+  }
